@@ -1,0 +1,41 @@
+﻿html {
+    background-color: black;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+body {
+    margin-top: 70px;
+    background-color: rgba(203, 200, 200, 0.00);
+    height: 450px;
+}
+
+ #chatDisplay {
+     overflow: scroll;
+     height: 60%;
+     color: white;
+     background-color: #484040;
+     font-size: 2em;
+     
+ }
+
+ #col {
+     height: 450px;
+ }
+
+ .container {
+     background-color: rgba(202, 202, 202, 0.00);
+     height: 600px;
+ }
+
+ #logo {
+     font-size: 5em;
+     color: white;
+     font-family: "Shadows Into Light", cursive;
+ }
+
+ .sendBtn {
+     float:left;
+ }

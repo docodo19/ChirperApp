@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+    <link href="css.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row clearfix foobar">
+            <div class="col-md-12 column">
+                
+                    <h4>
+                        <div>
+                            <textarea id="textArea" placeholder=" Welcome to CampR. Send your camp here!" style="height: 100px; width: 100%; border-radius:25px; background-color:black; color:white;"></textarea>
+                        </div>
+                        <button onclick="cr.sendTweet()">Camp!</button>
+                    </h4>
+                    
+               
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-4 column chats">
+                <h3>MENU</h3>
+                <div class="panel-group" id="panel-11027" style="color:black">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-11027" href="#panel-element-469235">CampR Users</a>
+                        </div>
+                        <div id="panel-element-469235" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div id="profileDisplay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-11027" href="#panel-element-115372">Friend's List</a>
+                        </div>
+                        <div id="panel-element-115372" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div id="friendProfile"></div>
+                                 <div id="friendsDisplay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>My Camp</h3>
+                <div id="chatDisplay"></div>
+            </div>
+            <div class="col-md-4 column chats">
+                
+                <h3>Friend's Camp</h3>
+                <div id="friendChatDisplay"></div>
+            </div>
+            <div class="col-md-4 column chats">
+                <h3>Combined Camps</h3>
+                <div id="masterTweet"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div class="container">
+        <div class="row clearfix">
+
+            <div class="col-md-4 column" style="background-color:coral">
+                <div>
+                    <p>Create Profile</p>
+                    <input type="text" id="profileUsername" placeholder="Username" /></br>
+                    <input type="text" id="profileName" placeholder="Name" /></br>
+                    <input type="text" id="profilePicture" placeholder="Picture Link" /></br>
+                    <input type="text" id="profileURL" placeholder="Firebase URL" /></br>
+                    <input type="text" id="profileEmail" placeholder="E-mail" /></br>
+                    <textarea typeof="text" id="profileBio" placeholder="About yourself"></textarea></br>
+                    <button onclick="cr.sendProfile()">Submit</button>
+                </div>
+            </div>
+
+
+            
+            <div class="col-md-4 column" style="background-color: cadetblue">
+                <div id="chatDisplay"></div>
+
+                <div>
+                    <textarea id="textArea" placeholder="Send your camp" ></textarea>
+                </div>
+                <button onclick="cr.sendTweet()">Camped</button>
+
+            </div>
+
+          
+            <div class="col-md-4 column" style="background-color:chocolate">
+                <h3>Central firebase information</h3>
+                <div id="profileDisplay"></div>
+            </div>
+
+
+
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-4 column" style="background-color:ActiveCaption">
+                <h3>Friend's list</h3>
+                <div id="friendsDisplay"></div>
+            </div>
+            <div class="col-md-4 column" style="background-color:darkkhaki">
+                <h3>Friend's Profile Details</h3>
+                <div id="friendProfile"></div>
+            </div>
+            <div class="col-md-4 column" style="background-color:darksalmon">
+                <h3>Friend's Camp</h3>
+                <div id="friendChatDisplay"></div>
+            </div>
+        </div>
+
+
+        <div class="row clearfix">
+            <div class="col-md-4 column" style="background-color:#f3d219">
+                <h3>something</h3>
+            </div>
+            <div class="col-md-4 column" style="background-color:#e26565">
+                <h3>combined tweets</h3>
+                <div id="masterTweet"></div>
+            </div>
+            <div class="col-md-4 column" style="background-color:#d58ff3">
+                <h3>something</h3>
+            </div>
+        </div>
+
+    </div>-->
+
+    
+
+
+
+
+
+    
+
+
+
+    <script src="Scripts/jquery-1.9.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="campr.js"></script>
+</body>
+</html>
